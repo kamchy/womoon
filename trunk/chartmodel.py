@@ -266,7 +266,7 @@ class FertilityHeuristics:
     # max temp
     max_before = -1
     max_before_idx = -1
-    for nr, d in enumerate(daylist[i - DAYS_BEFORE - 1, i])):
+    for nr, d in enumerate(daylist[i - DAYS_BEFORE - 1, i]):
       if d.temp > max_before:
         max_before = d.temp
         max_before_idx = nr + i - DAYS_BEFORE
@@ -276,7 +276,7 @@ class FertilityHeuristics:
 
     # three days after temp cannot fall below max_before
 
-    min_after_peak = reduce(min, [d.temp for d in daylist[i, i+DAYS_AFTER]))
+    min_after_peak = reduce(min, [d.temp for d in daylist[i, i+DAYS_AFTER]])
     if min_after_peak <= max_before:
       return None
     return [i - DAYS_BEFORE - 1, i + DAYS_AFTER]
