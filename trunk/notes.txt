@@ -1,0 +1,16 @@
+Do zrobienia
+------------
+- i18n - gettext w pythonie
+- deployment (distutils. py2exe)
+- ostatnio otwarte pliki (wybór tych, które dotyczą programu womoon?)
+- zapis ustawień do kat. usera (np. ostatnio użyty zestaw kolorów; ostatnio otwarte projekty
+- zaznaczanie dni płodnych na podstawie dotychczasowych obserwacji
+
+Błędy
+===================
+- licencja - brak treści (czy zlokalizowana pełna? czy tylko fragment?) 
+- ?? ustawienia kolorów - powinny być globalne (raz ustawione obowiązują dla wszystkich wczytanych/nowych)
+ok - nieobsługiwane wczytanie nieprawidłowego pliku z definicjami kolorów
+ok - generowane niepotrzebne elementy <notes>None</notes>
+
+

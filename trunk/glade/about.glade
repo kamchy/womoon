@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?> <!--*- mode: xml -*-->
+<!DOCTYPE glade-interface SYSTEM "http://glade.gnome.org/glade-2.0.dtd">
+
+<glade-interface>
+
+<widget class="GtkAboutDialog" id="main">
+  <property name="border_width">2</property>
+  <property name="visible">True</property>
+  <property name="destroy_with_parent">False</property>
+  <property name="name" translatable="yes">Womoon</property>
+  <property name="copyright" translatable="yes">Copyright: 2006 Kamila Chyla</property>
+  <property name="comments" translatable="yes">Edytor diagramów płodności</property>
+  <property name="license" translatable="yes">GPL</property>
+  <property name="wrap_license">False</property>
+  <property name="website"></property>
+  <property name="website_label" translatable="yes"></property>
+  <property name="authors">Kamila Chyla</property>
+  <property name="translator_credits" translatable="yes" comments="TRANSLATORS: Replace this string with your names, one name per line.">translator-credits</property>
+  <property name="logo">day.png</property>
+</widget>
+
+</glade-interface>
