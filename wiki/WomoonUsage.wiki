@@ -1,0 +1,15 @@
+#summary How to use womoon
+= Introduction =
+
+After womoon is started, you see empty chart. Each column represents one day and you can enter each day's temperature observation by either mouse-dragging of the blue dot up to the observed temp. value or by double-clicking the column, when day editor is shown.
+
+After you make your changes to the diagram, you can save it to the file system or/and export it to one of supported file formats:
+
+  * .pdf
+  * .png
+  * .svg
+  * .html (not yet supported)
+
+You can also change the colour scheme of the chart by editing the properties (which can also be saved to file).
+
+
