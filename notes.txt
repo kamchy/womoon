@@ -1,16 +1,25 @@
-Do zrobienia
-------------
-- i18n - gettext w pythonie
+
+Prerequisits:
+-------------
+- python 2.4 or higher
+- pygtk
+- pycairo
+
+Version 0.1 requirements:
+------------------------
+- i18n - prepare for gettext
 - deployment (distutils. py2exe)
-- ostatnio otwarte pliki (wybór tych, które dotyczą programu womoon?)
-- zapis ustawień do kat. usera (np. ostatnio użyty zestaw kolorów; ostatnio otwarte projekty
-- zaznaczanie dni płodnych na podstawie dotychczasowych obserwacji
+- recent files
+- filechooser remembers recent location (separately for each context)
+- properties (color scheme etc.) saved to user dir
+- ability to display "note is present" mark/icon
+- choose good icon (to be displayed as app icon in titlebar and in about dialog)
+- icons instead of hardcoded pictograms in observation area
 
-Błędy
-===================
-- licencja - brak treści (czy zlokalizowana pełna? czy tylko fragment?) 
-- ?? ustawienia kolorów - powinny być globalne (raz ustawione obowiązują dla wszystkich wczytanych/nowych)
-ok - nieobsługiwane wczytanie nieprawidłowego pliku z definicjami kolorów
-ok - generowane niepotrzebne elementy <notes>None</notes>
 
+Errors / inconsequences
+------------------------
+- licence - not displayed in about dialog
+- selected colorscheme is not saved (hence not loaded on next run)
+- java-like observer pattern implemented instead of gobject signals (refactoring needed)
 
