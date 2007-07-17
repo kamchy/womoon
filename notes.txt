@@ -1,3 +1,6 @@
+Development notes
+=================
+Kamila Chyla <kamila.chyla@gmail.com>
 
 Prerequisits:
 -------------
@@ -5,8 +8,11 @@ Prerequisits:
 - pygtk
 - pycairo
 
+Requirements
+-------------
+
 Version 0.1 requirements:
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~
 - i18n - prepare for gettext
 - deployment (distutils. py2exe)
 - recent files
@@ -16,6 +22,9 @@ Version 0.1 requirements:
 - choose good icon (to be displayed as app icon in titlebar and in about dialog)
 - icons instead of hardcoded pictograms in observation area
 
+Other requirements:
+~~~~~~~~~~~~~~~~~~~
+- Undo/redo
 
 Errors / inconsequences
 ------------------------
@@ -23,3 +32,6 @@ Errors / inconsequences
 - selected colorscheme is not saved (hence not loaded on next run)
 - java-like observer pattern implemented instead of gobject signals (refactoring needed)
 
+Other documents
+---------------
+link:README.html[README document]
