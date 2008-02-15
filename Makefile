@@ -10,4 +10,5 @@ doc:  $(DOCFILES)
 
 clean:
 	rm -f *.pyc *.html
+	rm -rf build
 

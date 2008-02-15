@@ -25,10 +25,11 @@ Version 0.1 requirements:
 Other requirements:
 ~~~~~~~~~~~~~~~~~~~
 - Undo/redo
+- Locations, last files, window position, colrscheme should use system-transparent preferences API
+  (gconf would be good, but too restrictive)
 
 Errors / inconsequences
 ------------------------
-- licence - not displayed in about dialog
 - selected colorscheme is not saved (hence not loaded on next run)
 - java-like observer pattern implemented instead of gobject signals (refactoring needed)
 
