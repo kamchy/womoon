@@ -32,6 +32,11 @@ Errors / inconsequences
 ------------------------
 - selected colorscheme is not saved (hence not loaded on next run)
 - java-like observer pattern implemented instead of gobject signals (refactoring needed)
+- fertility is not marked correctly (now only a mock-up)
+- meaning of iconic pictures should be explained somewhere (icons should be displayed)
+- a help file should be prepared
+- temperature cannot be changed from keyboard; a day should be selectable from keyboard somehow
+
 
 Other documents
 ---------------
