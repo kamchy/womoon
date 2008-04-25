@@ -24,6 +24,10 @@ import gtk
 import gtk.glade
 
 class TopLevel:
+  """Simple wraooer for gtk.glade.XML class which allows
+  to use glade filename as constructor parameter. 
+  ui property represents top-level content. 
+  on_delete method quits gtk mainloop."""
 
   GLADE_DIR = "glade"
 

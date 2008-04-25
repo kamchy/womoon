@@ -72,7 +72,7 @@ class ChartModel:
     Returns pair of day indixes (both inclusive)
     denoting prolific days
     """    
-    return (1, 8)
+    return None
 
   def get_month_str(self):
     end_date = self.start_date + timedelta(self.nx)
